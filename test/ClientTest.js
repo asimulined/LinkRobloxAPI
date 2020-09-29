@@ -1,4 +1,4 @@
-const RobloxApi = require("../api/index.js");
+const RobloxApi = require("../lib/index.js");
 const RobloxClient = new RobloxApi.RobloxClient();
 
 let user = RobloxClient.getIdFromUsername("ROBLOX");
